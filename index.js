@@ -1,0 +1,1 @@
+alert("Welcome to a new joirney and my new site!!!");

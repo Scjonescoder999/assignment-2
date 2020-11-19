@@ -1,12 +1,53 @@
 h1 {
-    color: #008000;
+    color: rgb(1, 5, 1);
+}
+
+
+.main-nav {
+    width: 100%;
+    background: rgb(197, 83, 83);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
     text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .nav .name {
+    display: none;
+  }
+  .nav li {
+    padding: 5px 10px 10px 10px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: whitesmoke
+  }
+
+  .quality {
+    color: red;
+    text-align:left;
     
 }
 
-.targeted {
-    color: red;
-    text-align:left;
 }
 
+.best {
+  color: red;
+  text-align:left;
+  
+}
+
+.tried {
+  color: #008000;
+    text-align: center;
+}
 
